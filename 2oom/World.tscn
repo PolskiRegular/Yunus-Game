@@ -1,0 +1,579 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://Player.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Zombie.tscn" type="PackedScene" id=2]
+
+[sub_resource type="QuadMesh" id=1]
+
+[sub_resource type="ImageTexture" id=3]
+
+[sub_resource type="RectangleShape2D" id=2]
+extents = Vector2( 84.25, 20 )
+
+[node name="World" type="Node2D"]
+__meta__ = {
+"_editor_description_": "a"
+}
+
+[node name="Player" parent="." instance=ExtResource( 1 )]
+position = Vector2( 544, 288 )
+
+[node name="Camera2D" type="Camera2D" parent="Player"]
+
+[node name="Zombie" parent="." instance=ExtResource( 2 )]
+position = Vector2( 200, 472 )
+
+[node name="Zombie2" parent="." instance=ExtResource( 2 )]
+position = Vector2( 192, 120 )
+
+[node name="Zombie3" parent="." instance=ExtResource( 2 )]
+position = Vector2( 816, 124 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Zombie4" parent="." instance=ExtResource( 2 )]
+position = Vector2( 464, 40 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Zombie5" parent="." instance=ExtResource( 2 )]
+position = Vector2( 704, 504 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Zombie6" parent="." instance=ExtResource( 2 )]
+position = Vector2( -48, 1589 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Zombie7" parent="." instance=ExtResource( 2 )]
+position = Vector2( -1209, 962 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Zombie8" parent="." instance=ExtResource( 2 )]
+position = Vector2( -1319, 38 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Zombie9" parent="." instance=ExtResource( 2 )]
+position = Vector2( -565, -479 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Zombie10" parent="." instance=ExtResource( 2 )]
+position = Vector2( 105, -547 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Zombie11" parent="." instance=ExtResource( 2 )]
+position = Vector2( 832, -408 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Zombie12" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1562, -259 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Zombie13" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1825, 207 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Zombie14" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1825, 571 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Zombie15" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1647, 834 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Zombie16" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1418, 1131 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Zombie17" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1054, 1275 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Zombie18" parent="." instance=ExtResource( 2 )]
+position = Vector2( 200, 312 )
+
+[node name="Zombie19" parent="." instance=ExtResource( 2 )]
+position = Vector2( 296, 80 )
+
+[node name="Zombie20" parent="." instance=ExtResource( 2 )]
+position = Vector2( 904, 168 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Zombie21" parent="." instance=ExtResource( 2 )]
+position = Vector2( 680, 32 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Zombie22" parent="." instance=ExtResource( 2 )]
+position = Vector2( 776, 496 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Zombie23" parent="." instance=ExtResource( 2 )]
+position = Vector2( -48, 1589 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Zombie24" parent="." instance=ExtResource( 2 )]
+position = Vector2( -1209, 962 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Zombie25" parent="." instance=ExtResource( 2 )]
+position = Vector2( -1319, 38 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Zombie26" parent="." instance=ExtResource( 2 )]
+position = Vector2( -952, -1192 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Zombie27" parent="." instance=ExtResource( 2 )]
+position = Vector2( -8, -1296 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Zombie28" parent="." instance=ExtResource( 2 )]
+position = Vector2( 832, -1104 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Zombie29" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1562, -259 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Zombie35" parent="." instance=ExtResource( 2 )]
+position = Vector2( -704, -1532 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Zombie36" parent="." instance=ExtResource( 2 )]
+position = Vector2( -34, -1600 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Zombie37" parent="." instance=ExtResource( 2 )]
+position = Vector2( 703, -1583 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Zombie38" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1423, -1312 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Zombie39" parent="." instance=ExtResource( 2 )]
+position = Vector2( -704, -1532 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Zombie40" parent="." instance=ExtResource( 2 )]
+position = Vector2( -34, -1600 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Zombie41" parent="." instance=ExtResource( 2 )]
+position = Vector2( 703, -1583 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Zombie42" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1423, -1312 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Zombie43" parent="." instance=ExtResource( 2 )]
+position = Vector2( -496, -1956 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Zombie44" parent="." instance=ExtResource( 2 )]
+position = Vector2( 174, -2024 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Zombie45" parent="." instance=ExtResource( 2 )]
+position = Vector2( 911, -2007 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Zombie46" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1631, -1736 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Zombie47" parent="." instance=ExtResource( 2 )]
+position = Vector2( -496, -1956 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Zombie48" parent="." instance=ExtResource( 2 )]
+position = Vector2( 174, -2024 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Zombie49" parent="." instance=ExtResource( 2 )]
+position = Vector2( 911, -2007 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Zombie50" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1631, -1736 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Zombie51" parent="." instance=ExtResource( 2 )]
+position = Vector2( -3432, -1208 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Zombie52" parent="." instance=ExtResource( 2 )]
+position = Vector2( -2488, -1312 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Zombie53" parent="." instance=ExtResource( 2 )]
+position = Vector2( -1648, -1120 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Zombie54" parent="." instance=ExtResource( 2 )]
+position = Vector2( -3184, -1548 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Zombie55" parent="." instance=ExtResource( 2 )]
+position = Vector2( -2514, -1616 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Zombie56" parent="." instance=ExtResource( 2 )]
+position = Vector2( -1777, -1599 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Zombie57" parent="." instance=ExtResource( 2 )]
+position = Vector2( -1057, -1328 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Zombie58" parent="." instance=ExtResource( 2 )]
+position = Vector2( -3184, -1548 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Zombie59" parent="." instance=ExtResource( 2 )]
+position = Vector2( -2514, -1616 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Zombie60" parent="." instance=ExtResource( 2 )]
+position = Vector2( -1777, -1599 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Zombie61" parent="." instance=ExtResource( 2 )]
+position = Vector2( -1057, -1328 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Zombie62" parent="." instance=ExtResource( 2 )]
+position = Vector2( -2976, -1972 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Zombie63" parent="." instance=ExtResource( 2 )]
+position = Vector2( -2306, -2040 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Zombie64" parent="." instance=ExtResource( 2 )]
+position = Vector2( -1569, -2023 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Zombie65" parent="." instance=ExtResource( 2 )]
+position = Vector2( -849, -1752 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Zombie66" parent="." instance=ExtResource( 2 )]
+position = Vector2( -2976, -1972 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Zombie67" parent="." instance=ExtResource( 2 )]
+position = Vector2( -2306, -2040 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Zombie68" parent="." instance=ExtResource( 2 )]
+position = Vector2( -1569, -2023 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Zombie70" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1888, -1024 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Zombie71" parent="." instance=ExtResource( 2 )]
+position = Vector2( 2832, -1128 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Zombie72" parent="." instance=ExtResource( 2 )]
+position = Vector2( 3672, -936 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Zombie73" parent="." instance=ExtResource( 2 )]
+position = Vector2( 2136, -1364 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Zombie74" parent="." instance=ExtResource( 2 )]
+position = Vector2( 2806, -1432 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Zombie75" parent="." instance=ExtResource( 2 )]
+position = Vector2( 3543, -1415 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Zombie76" parent="." instance=ExtResource( 2 )]
+position = Vector2( 2136, -1364 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Zombie77" parent="." instance=ExtResource( 2 )]
+position = Vector2( 2806, -1432 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Zombie78" parent="." instance=ExtResource( 2 )]
+position = Vector2( 3543, -1415 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Zombie79" parent="." instance=ExtResource( 2 )]
+position = Vector2( 2344, -1788 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Zombie80" parent="." instance=ExtResource( 2 )]
+position = Vector2( 3014, -1856 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Zombie81" parent="." instance=ExtResource( 2 )]
+position = Vector2( 3751, -1839 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Zombie82" parent="." instance=ExtResource( 2 )]
+position = Vector2( 2344, -1788 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Zombie83" parent="." instance=ExtResource( 2 )]
+position = Vector2( 3014, -1856 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Zombie84" parent="." instance=ExtResource( 2 )]
+position = Vector2( 3751, -1839 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Zombie69" parent="." instance=ExtResource( 2 )]
+position = Vector2( -849, -1752 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Zombie30" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1825, 207 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Zombie31" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1825, 571 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Zombie32" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1647, 834 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Zombie33" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1418, 1131 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Zombie34" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1054, 1275 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="A2" type="StaticBody2D" parent="."]
+position = Vector2( 656, 200 )
+rotation = 0.685779
+scale = Vector2( 0.944253, 0.343974 )
+
+[node name="MeshInstance2D" type="MeshInstance2D" parent="A2"]
+position = Vector2( 4.13931, 5.32602 )
+scale = Vector2( -153.768, -40.435 )
+mesh = SubResource( 1 )
+
+[node name="Sprite" type="Sprite" parent="A2"]
+position = Vector2( 3.05597, -5.37417 )
+texture = SubResource( 3 )
+
+[node name="A5" type="StaticBody2D" parent="."]
+position = Vector2( 424, 200 )
+rotation = -0.480289
+scale = Vector2( 0.944253, 0.343974 )
+
+[node name="MeshInstance2D" type="MeshInstance2D" parent="A5"]
+position = Vector2( 4.13931, 5.32602 )
+scale = Vector2( -153.768, -40.435 )
+mesh = SubResource( 1 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="A5"]
+position = Vector2( 5.88751, 0.98045 )
+shape = SubResource( 2 )
+
+[node name="Sprite" type="Sprite" parent="A5"]
+position = Vector2( 3.05597, -5.37417 )
+texture = SubResource( 3 )
+
+[node name="A6" type="StaticBody2D" parent="."]
+position = Vector2( 424, 393 )
+rotation = 0.531087
+scale = Vector2( 0.944253, 0.343974 )
+
+[node name="MeshInstance2D" type="MeshInstance2D" parent="A6"]
+position = Vector2( 4.13931, 5.32602 )
+scale = Vector2( -153.768, -40.435 )
+mesh = SubResource( 1 )
+
+[node name="Sprite" type="Sprite" parent="A6"]
+position = Vector2( 3.05597, -5.37417 )
+texture = SubResource( 3 )
+
+[node name="A3" type="StaticBody2D" parent="."]
+position = Vector2( 672, 409 )
+rotation = 2.69523
+scale = Vector2( 0.944253, 0.343974 )
+
+[node name="MeshInstance2D" type="MeshInstance2D" parent="A3"]
+position = Vector2( 4.13931, 5.32602 )
+scale = Vector2( -153.768, -40.435 )
+mesh = SubResource( 1 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="A3"]
+position = Vector2( 5.88751, 0.98045 )
+shape = SubResource( 2 )
+
+[node name="Sprite" type="Sprite" parent="A3"]
+position = Vector2( 3.05597, -5.37417 )
+texture = SubResource( 3 )
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
